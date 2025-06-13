@@ -9,7 +9,7 @@ seq:
   - id: data
     type: data
     # TODO: This needs fixing at some point
-    process: decrypt06(header.key)
+    process: th06_data_processor(header.key)
     size-eos: true
 types:
   header:
